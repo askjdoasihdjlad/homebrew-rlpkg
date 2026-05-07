@@ -9,7 +9,7 @@ class Rlpkg < Formula
 
   def install
     # This moves all files from the GitHub-generated folder to libexec
-    libexec.install Dir["rlpkg-rlpkg-r/*"]
+    libexec.install Dir["*"]
   end
 
   test do
