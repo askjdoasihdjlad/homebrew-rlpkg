@@ -9,6 +9,6 @@ class Rlpkg < Formula
   end
 
   test do
-    system "#{bin}/rlpkg", "--version"
+    system "#{bin}/", "--version"
   end
 end
